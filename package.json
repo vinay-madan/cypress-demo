@@ -7,7 +7,7 @@
     "open:cypress": "npx cypress open",
     "run:tests": "npx cypress run --spec cypress/e2e/scenario.cy.js",
     "e2e:chrome": "cypress run --browser chrome",
-    "run:tests:chrome": "npm run e2e:chrome -- --spec cypress/e2e/scenario.cy.js"
+    "run:tests:chrome": "npm run --headed e2e:chrome -- --spec cypress/e2e/scenario.cy.js"
   },
   "repository": {
     "type": "git",
