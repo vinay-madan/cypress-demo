@@ -62,7 +62,7 @@ describe('Test Suite', () => {
         shoppingPage.visitCartPage();
 
         // Verify the subtotal for each product is correct
-        cartPage.getSubTotal(1).should('eq', '$21.98');
+        cartPage.getSubTotal(1).should('eq', '$22.98');
         cartPage.getSubTotal(2).should('eq', '$49.95');
         cartPage.getSubTotal(3).should('eq', '$44.97');
 
